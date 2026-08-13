@@ -1,0 +1,12 @@
+Firehaha 手機 GitHub Actions 建置
+
+1. 把 Firehaha-Android-Project.zip 上傳到 Firehaha-Android repository 最外層。
+2. Repository → Add file → Create new file。
+3. 檔名輸入：
+   .github/workflows/build-apk.yml
+4. 把 build-apk.yml 的全部內容貼進去，Commit changes。
+5. 進 Actions → Build Firehaha APK → Run workflow。
+6. 成功後打開該次執行 → Artifacts → Firehaha-APK。
+7. 下載 Artifact ZIP，解壓後得到 app-debug.apk。
+
+app-debug.apk 是可測試安裝的 debug APK，不是 Play 商店正式簽署版。
